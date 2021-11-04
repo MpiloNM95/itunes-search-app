@@ -1,0 +1,91 @@
+/* The position has been set to relative */
+/* The display has been set inline-block */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* The list-style-type has been set to none */
+/* The margin has been set to 0 */
+/* The padding has been set to 0 */
+/* The top has been set to 45pixels */
+/* The right has been set to 0pixels */
+/* The width has been set to 200pixels */
+/* The background-color has been set to white */
+/* The font-weight has been set to bold */
+/* The position has been set to absolute */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top:45px;
+    right:0px;
+    width: 200px;
+    background-color: white;
+    font-weight:bold;
+    position: absolute;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* The color (refers to text color) has been set to #000 */
+/* The text-decoration has been set none */
+li a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* The padding has been set to 8pixels (top & bottom) & 16 pixels (left & right) */
+/* The border-bottom has been set to 1pixel(thickness), solid(style of border), #e5e5e5(color of the border) */
+li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* The border-bottom has been set to none */
+li:last-child {
+    border-bottom: none;
+}
+
+/* The background-color has been set to #e5e5e5 */
+/* The color(refers to the text/writing color) has been set to white */
+li:hover {
+    background-color: #e5e5e5;
+    color: white;
+}
+
+/* The width has been set to 178pixels */
+/* The height has been set to 18pixels */
+/* The background color has been set to lightcoral */
+/* The padding has been set to 12pixels */
+/* The border-radius has been set to 5pixels */
+/* The font-weight has been set to bold */
+/* The color (refers to the text/writing color) */
+.button{
+    width:178px;
+    height:18px;
+    background-color: lightcoral;
+    padding:12px;
+    border-radius:5px;
+    font-weight:bold;
+    color:white;
+}
+
+/* The position has been set to absolute */
+/* The width has been set to 0pixels */
+/* The height has been set to 0pixels */
+/* The border 10pixels solid */
+/* The border-color has been set to white transparent */
+/* The right has been set to 6pixels */
+/* The top has been set to 18pixels */
+.button:before{
+    content:"";
+    position:absolute;
+    width:0px;
+    height:0px;
+    border: 10px solid;
+    border-color: white transparent transparent transparent;
+    right:6px;
+    top:18px;
+}
